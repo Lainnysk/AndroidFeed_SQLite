@@ -10,20 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NewsFeed_SQLite">
         <activity
+            android:name=".FeedForAdminActivity"
+            android:exported="true"
+            android:parentActivityName=".LoginActivity"
+            android:label="Feed" />
+        <activity
             android:name=".editNews"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Edit news"/>
         <activity
             android:name=".AddNewsActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Add news"/>
         <activity
             android:name=".RegActivity"
-            android:exported="true" />
-        <activity
-            android:name=".FeedForAdminActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Registration news"/>
         <activity
             android:name=".LoginActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Authorization"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

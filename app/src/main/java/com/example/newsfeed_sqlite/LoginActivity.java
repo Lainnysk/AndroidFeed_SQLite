@@ -47,7 +47,6 @@ public class LoginActivity extends AppCompatActivity {
                 }
             }
         }
-        finish();
     }
 
     public void regClick(View view) {
